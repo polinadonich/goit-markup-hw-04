@@ -106,6 +106,7 @@ img {
   margin-top: 0px;
   margin-bottom: 0px;
   margin-left: auto;
+
 }
 
 .contact-nav .link:hover,
@@ -122,8 +123,15 @@ img {
 .contact-nav .item:not(:last-child) {
   margin-right: 50px;
 }
+.contact-nav {
+  
+}
 /* Hero */
-.overlay {
+
+.hero {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
   max-width: 1600px;
   height: 600px;
   margin-left: auto;
@@ -134,16 +142,9 @@ img {
     rgba(47, 48, 58, 0.4),
     rgba(47, 48, 58, 0.4)),
   url(../images/Overlay.jpg);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  
-
-}
-.hero {
-  margin-top: 0px;
-  margin-bottom: 0px;
-  text-align: center;
 }
 
 .hero-title {
@@ -324,6 +325,7 @@ img {
   flex-wrap: wrap;
   margin-top: calc(-1 * var(--portfolio-box-gap));
   margin-left: calc(-1 * var(--portfolio-box-gap));
+  margin-bottom: 0px;
 }
 .portfolio-box {
   background: var(--primery-bg-color);
