@@ -107,11 +107,13 @@ img {
   margin-bottom: 0px;
   margin-left: auto;
 
+
 }
 
 .contact-nav .link:hover,
 .contact-nav .link:focus {
   color: var(--accept-color);
+
 }
 
 .contact-nav {
@@ -123,11 +125,13 @@ img {
 .contact-nav .item:not(:last-child) {
   margin-right: 50px;
 }
-.item .envelope{
-  width: 16px;
-  height: 14px;
-  background-color: blueviolet;
+
+.contact-icon {
+  fill: brown;
 }
+
+
+
 /* Hero */
 
 .hero {
