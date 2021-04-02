@@ -123,8 +123,10 @@ img {
 .contact-nav .item:not(:last-child) {
   margin-right: 50px;
 }
-.contact-nav {
-  
+.item .envelope{
+  width: 16px;
+  height: 14px;
+  background-color: blueviolet;
 }
 /* Hero */
 
@@ -230,13 +232,28 @@ img {
   display: flex;
   margin: 0px;
 }
-.featute-item:not(:last-child) {
+.feature-item:not(:last-child) {
   margin-right: 30px;
 }
-.featute-item {
+.feature-item {
   width: 270px;
+  
 
 }
+.feature-bgr{
+width: 270px;
+height: 120px;
+background: #F5F4FA;
+border-radius: 4px;
+display: flex;
+margin-bottom: 30px;
+}
+
+.feature-icon {
+  display: inline-block;
+  margin: auto;
+}
+
 /* Чем мы занимаемся */
 .images {
   display: flex;
