@@ -108,16 +108,12 @@ img {
   margin-left: auto;
   display: flex;
   align-items: center;
-
-
-
 }
 
 .contact-nav .link:hover,
 .contact-nav .link:focus {
   color: var(--accept-color);
-  fill: var(--accept-color);
-
+  /* fill: var(--accept-color); */
 }
 
 
@@ -137,8 +133,8 @@ img {
 
 }
 
-.contact-icon:hover,
-.contact-icon:focus {
+.link:hover .contact-icon, 
+.link:focus .contact-icon {
   fill: var(--accept-color);
 
 }
@@ -255,7 +251,6 @@ img {
 .feature-item {
   width: 270px;
   
-
 }
 .feature-bgr{
 width: 270px;
@@ -282,7 +277,7 @@ margin-bottom: 30px;
   padding-top: 0px;
 }
 
-/* Staff */
+/* Наша команда */
 
 .section-staff {
   background-color: var(--bg-color);
@@ -291,7 +286,6 @@ margin-bottom: 30px;
   display: flex;
   margin: 0px;
 }
-
 
 .card-item {
   width: 270px;
@@ -321,11 +315,29 @@ margin-bottom: 30px;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
-  margin: 0px;
-  
+  margin: 0px; 
+}
+
+.social-network-icon {
+  display: flex;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  background-color: #2196f3;
+
+}
+
+.social-network-links{
+  display: flex;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: 30px;
+ 
+
 }
 
 /* Portfolio */
+
 
 .portfolio-nav .button {
   background-color: #f5f4fa;
