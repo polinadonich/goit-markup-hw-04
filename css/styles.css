@@ -483,8 +483,12 @@ margin-bottom: 30px;
   
 }
 
+.footer .container {
+  display: flex;
+  align-items: baseline;
+}
 
-.footer-part:not(:last-child){
+.footer-part {
   margin-right: 70px;
 
 }
@@ -538,8 +542,8 @@ margin-bottom: 30px;
   letter-spacing: 0.03em;
   font-size: 14px;
   line-height: 1.14;
-  margin-top: 15px;
-  margin-bottom: 0px;
+margin-top: 0px;
+margin-bottom: 0px;
  }
 
 .footer-social-links {
