@@ -7,6 +7,7 @@
   --bg-color: #f5f4fa;
   --portfolio-box-gap: 30px;
   --border-card-content: 1px solid #EEEEEE;
+  --color-icon: #AFB1B8;
 }
 
 .page {
@@ -301,6 +302,8 @@ margin-bottom: 30px;
 .card-text {
   padding-top: 30px;
   padding-bottom: 30px;
+  padding-left: 32px;
+  padding-right: 32px;
 }
 .staff-title {
   font-weight: 500;
@@ -322,13 +325,12 @@ margin-bottom: 30px;
 
 .social-network-icons {
   display: flex;
-  width: 206px;
   justify-content: space-between;
   margin: 0 auto;
   margin-top: 16px;
 }
 .social-svg-icon {
-  fill: var(--title-text-color);
+  fill: var(--color-icon);
 }
 
 .social-network-icons .social-network-link {
@@ -353,14 +355,17 @@ margin-bottom: 30px;
 
 .regular-customers {
   display: flex;
-  width: 1170px;
-  justify-content: space-between;
   margin: 0 auto;
+
 }
 
+.regular-customer:not(:last-child) {
+  margin-right: 30px;
+
+}
 .regular-customers-link {
   width: 170px;
-  height: 92px;
+  height: 90px;
   border: 1px solid #AFB1B8;
   border-radius: 4px;
   display: flex;
@@ -369,7 +374,7 @@ margin-bottom: 30px;
 }
 
 .regular-customers-icon {
-  fill: var(--title-text-color);
+  fill: var(--color-icon);
 }
 
 .regular-customers-link:hover .regular-customers-icon {
@@ -475,11 +480,9 @@ margin-bottom: 30px;
   background-color: var(--accept-bg-color);
   padding-bottom: 60px;
   padding-top: 60px;
+  
 }
 
-.footer-container {
-  display: flex;
-}
 
 .footer-part:not(:last-child){
   margin-right: 70px;
@@ -541,11 +544,14 @@ margin-bottom: 30px;
 
 .footer-social-links {
   display: flex;
-  width: 206px;
-  justify-content: space-between;
   margin: 0 auto;
   margin-top: 20px;
 } 
+
+.footer-social-links-item:not(:last-child) {
+  margin-right: 10px;
+
+}
 
 .footer-social-links .footer-social-link {
   width: 44px;
