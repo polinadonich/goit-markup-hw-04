@@ -324,9 +324,9 @@ margin-bottom: 30px;
   justify-content: space-between;
   margin: 0 auto;
   margin-top: 16px;
-  
-  
-
+}
+.social-svg-icon {
+  fill: var(--title-text-color);
 }
 
 .social-network-icons .social-network-link {
@@ -340,7 +340,11 @@ margin-bottom: 30px;
 
 .social-network-link:hover .social-svg-icon {
   fill: var(--primery-bg-color);
+
+}
+.social-network-link:hover {
   background-color: var(--accept-color);
+
 }
 
 
