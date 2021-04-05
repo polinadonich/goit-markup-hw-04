@@ -318,23 +318,31 @@ margin-bottom: 30px;
   margin: 0px; 
 }
 
-.social-network-icon {
+.social-network-icons {
   display: flex;
-  align-items: center;
+  width: 206px;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 16px;
+  
+  
+
+}
+
+.social-network-icons .social-network-link {
   width: 44px;
   height: 44px;
-  background-color: #2196f3;
-
-}
-
-.social-network-links{
   display: flex;
-  padding-left: 32px;
-  padding-right: 32px;
-  padding-bottom: 30px;
- 
-
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
 }
+
+.social-network-link:hover .social-svg-icon {
+  fill: var(--primery-bg-color);
+  background-color: var(--accept-color);
+}
+
 
 /* Portfolio */
 
