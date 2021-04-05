@@ -347,6 +347,37 @@ margin-bottom: 30px;
 
 }
 
+/* Постоянные клиенты */
+
+.regular-customers {
+  display: flex;
+  width: 1070px;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.regular-customers-link {
+  width: 170px;
+  height: 92px;
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.regular-customers-icon {
+  fill: var(--title-text-color);
+}
+
+.regular-customers-link:hover .regular-customers-icon {
+ fill: var(--accept-color); 
+}
+
+.regular-customers-link:hover {
+  border: 1px solid #2196F3;
+
+}
 
 /* Portfolio */
 
@@ -418,6 +449,7 @@ margin-bottom: 30px;
   border-right: var(--border-card-content);
   border-bottom: var(--border-card-content);
 }
+
 
 /* Footer */
 
